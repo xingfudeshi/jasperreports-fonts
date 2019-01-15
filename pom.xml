@@ -6,8 +6,17 @@
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	<name>JasperReports Font Extension</name>
-	<url>http://jasperreports.sourceforge.net</url>
-	<description>JasperReports Library Font Extension</description>
+	<description>A Chinese fonts extension for jasperreports.</description>
+	
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+	
+	
 	<licenses>
 		<license>
 			<name>GNU Lesser General Public License</name>
@@ -16,10 +25,10 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:https://github.com/Jaspersoft/jasperreports.git</connection>
-		<tag>jr-6-7-0</tag>
-		<url>https://github.com/Jaspersoft/jasperreports</url>
-	</scm>
+        <url>https://github.com/xingfudeshi/yoyo</url>
+        <connection>https://github.com/xingfudeshi/jasperreports-fonts.git</connection>
+        <developerConnection>https://github.com/xingfudeshi</developerConnection>
+    </scm>
 	<developers>
 		<developer>
 			<id>teodord</id>
@@ -34,6 +43,11 @@
 			</roles>
 			<timezone>+2</timezone>
 		</developer>
+		<developer>
+            <name>Wu</name>
+            <email>xingfudeshi@vip.qq.com</email>
+            <url>https://github.com/xingfudeshi</url>
+        </developer>
 	</developers>
 	<build>
 		<sourceDirectory>./</sourceDirectory>
@@ -79,4 +93,66 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <!-- Source -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>jar-no-fork</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!-- Javadoc -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!-- GPG -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>sonatype-nexus-snapshots</id>
+                    <url>
+                        https://oss.sonatype.org/content/repositories/snapshots/
+                    </url>
+                </snapshotRepository>
+                <repository>
+                    <id>sonatype-nexus-staging</id>
+                    <url>
+                        https://oss.sonatype.org/service/local/staging/deploy/maven2/
+                    </url>
+                </repository>
+            </distributionManagement>
+        </profile>
+    </profiles>
 </project>
