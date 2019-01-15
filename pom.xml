@@ -33,7 +33,7 @@
 		</license>
 	</licenses>
 	<scm>
-        <url>https://github.com/xingfudeshi/yoyo</url>
+        <url>https://github.com/xingfudeshi/jasperreports-fonts</url>
         <connection>https://github.com/xingfudeshi/jasperreports-fonts.git</connection>
         <developerConnection>https://github.com/xingfudeshi</developerConnection>
     </scm>
@@ -103,7 +103,7 @@
 	</build>
 	<profiles>
         <profile>
-            <id>release</id>
+            <id>sonatype-oss-release</id>
             <build>
                 <plugins>
                     <!-- Source -->
