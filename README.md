@@ -1,5 +1,8 @@
 # jasperreports-fonts
 A Chinese fonts extension for jasperreports.
+Font contained:
+华文宋体
+
 
 Quick start:
 
