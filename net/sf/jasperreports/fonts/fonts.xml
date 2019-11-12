@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <fontFamilies>
-
-	<fontFamily name="华文宋体">
-		<normal>net/sf/jasperreports/fonts/dejavu/font.ttf</normal>
-		<bold>net/sf/jasperreports/fonts/dejavu/font.ttf</bold>
-		<italic>net/sf/jasperreports/fonts/dejavu/font.ttf</italic>
-		<boldItalic>net/sf/jasperreports/fonts/dejavu/font.ttf</boldItalic>
+	<fontFamily name="黑体">
+		<normal>net/sf/jasperreports/fonts/dejavu/simhei.ttf</normal>
+		<bold>net/sf/jasperreports/fonts/dejavu/simhei.ttf</bold>
+		<italic>net/sf/jasperreports/fonts/dejavu/simhei.ttf</italic>
+		<boldItalic>net/sf/jasperreports/fonts/dejavu/simhei.ttf</boldItalic>
 		<pdfEncoding>Identity-H</pdfEncoding>
 		<pdfEmbedded>true</pdfEmbedded>
 		<exportFonts>
-			<export key="net.sf.jasperreports.html">'华文宋体', Arial, Helvetica, sans-serif</export>
-			<export key="net.sf.jasperreports.xhtml">'华文宋体', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.html">'黑体', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'黑体', Arial, Helvetica, sans-serif</export>
 		</exportFonts>
 	</fontFamily>
-
 </fontFamilies>
