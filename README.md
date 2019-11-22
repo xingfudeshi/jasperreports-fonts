@@ -1,7 +1,7 @@
 # jasperreports-fonts
 A Chinese fonts extension for jasperreports.
 Font contained:
-华文宋体
+黑体
 
 
 Quick start:
@@ -10,6 +10,6 @@ Quick start:
 <dependency>
   <groupId>com.github.xingfudeshi</groupId>
   <artifactId>jasperreports-fonts</artifactId>
-  <version>1.0.1</version>
+  <version>1.1.0</version>
 </dependency>
 ```
