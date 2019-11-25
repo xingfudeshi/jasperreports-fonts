@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <fontFamilies>
-	<fontFamily name="思源黑体">
-		<normal>com/github/xingfudeshi/fonts/NotoSansCJK-Regular-1.otf</normal>
-		<bold>com/github/xingfudeshi/fonts/NotoSansCJK-Medium-5.otf</bold>
+	<fontFamily name="Source Han Sans K Medium">
+		<normal>com/github/xingfudeshi/fonts/SourceHanSansK-Regular.ttf</normal>
+		<bold>com/github/xingfudeshi/fonts/SourceHanSansK-Medium.ttf</bold>
 		<!-- italic is not provided
 		<italic>net/sf/jasperreports/fonts/dejavu/simhei.ttf</italic>
 		<boldItalic>net/sf/jasperreports/fonts/dejavu/simhei.ttf</boldItalic>
@@ -11,8 +11,21 @@
 		<pdfEncoding>Identity-H</pdfEncoding>
 		<pdfEmbedded>true</pdfEmbedded>
 		<exportFonts>
-			<export key="net.sf.jasperreports.html">'思源黑体', Arial, Helvetica, sans-serif</export>
-			<export key="net.sf.jasperreports.xhtml">'思源黑体', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.html">'Source Han Sans K Medium', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Source Han Sans K Medium', Arial, Helvetica, sans-serif</export>
+		</exportFonts>
+	</fontFamily>
+	<fontFamily name="Source Han Sans K Regular">
+		<normal>com/github/xingfudeshi/fonts/SourceHanSansK-Regular.ttf</normal>
+		<!-- italic is not provided
+		<italic></italic>
+		<boldItalic></boldItalic>
+		-->
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'Source Han Sans K Regular', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'Source Han Sans K Regular', Arial, Helvetica, sans-serif</export>
 		</exportFonts>
 	</fontFamily>
 </fontFamilies>
