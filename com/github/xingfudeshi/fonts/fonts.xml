@@ -2,11 +2,10 @@
 
 <fontFamilies>
 	<fontFamily name="Source Han Sans K Medium">
-		<normal>com/github/xingfudeshi/fonts/SourceHanSansK-Regular.ttf</normal>
 		<bold>com/github/xingfudeshi/fonts/SourceHanSansK-Medium.ttf</bold>
 		<!-- italic is not provided
-		<italic>net/sf/jasperreports/fonts/dejavu/simhei.ttf</italic>
-		<boldItalic>net/sf/jasperreports/fonts/dejavu/simhei.ttf</boldItalic>
+		<italic></italic>
+		<boldItalic></boldItalic>
 		-->
 		<pdfEncoding>Identity-H</pdfEncoding>
 		<pdfEmbedded>true</pdfEmbedded>

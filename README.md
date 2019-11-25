@@ -1,15 +1,16 @@
 # jasperreports-fonts
 A Chinese fonts extension for jasperreports.
-Font contained:
-黑体
+Font contained:  
+Source Han Sans K Regular  
+Source Han Sans K Medium 
 
 
 Quick start:
 
-```java
+``` java
 <dependency>
   <groupId>com.github.xingfudeshi</groupId>
   <artifactId>jasperreports-fonts</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
 </dependency>
 ```
