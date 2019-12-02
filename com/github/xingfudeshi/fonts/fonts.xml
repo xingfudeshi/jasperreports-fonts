@@ -2,6 +2,7 @@
 
 <fontFamilies>
 	<fontFamily name="Source Han Sans K Medium">
+		<normal>com/github/xingfudeshi/fonts/SourceHanSansK-Medium.ttf</normal>
 		<bold>com/github/xingfudeshi/fonts/SourceHanSansK-Medium.ttf</bold>
 		<!-- italic is not provided
 		<italic></italic>
@@ -16,6 +17,7 @@
 	</fontFamily>
 	<fontFamily name="Source Han Sans K Regular">
 		<normal>com/github/xingfudeshi/fonts/SourceHanSansK-Regular.ttf</normal>
+		<bold>com/github/xingfudeshi/fonts/SourceHanSansK-Regular.ttf</bold>
 		<!-- italic is not provided
 		<italic></italic>
 		<boldItalic></boldItalic>
